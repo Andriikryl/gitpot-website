@@ -1,0 +1,30 @@
+.header{
+    padding-block: 20px;
+}
+
+.header__box{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.wrapper{
+    width: 70%;
+    height: 100%;
+    background-color: aqua;
+    position: fixed;
+    right: 0;
+    top: 0;   
+    transition: all 500ms ease-in-out;
+}
+.backdrop{
+    background-color: tomato;
+    width: 100%;
+}
+
+/* .navigationList{
+    background-color: aqua;
+    position: fixed;
+    right: 0;
+    top: 0;
+} */
