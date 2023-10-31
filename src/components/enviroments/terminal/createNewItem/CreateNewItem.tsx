@@ -24,6 +24,7 @@ export default function CreateNewItem({
         </label>
         <div className="row">
           <input
+            placeholder="you can type here..."
             className={style.input}
             id="new-list-form-input"
             type="text"

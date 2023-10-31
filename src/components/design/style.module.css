@@ -1,0 +1,14 @@
+.design{
+    padding-block: 100px;
+}
+
+.design__title{
+    color: #FBA949;
+    text-align: center;
+    font-family: Roboto;
+    font-size: clamp(20px, 5vw + 1rem, 54px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.82px;
+    margin-block-end: 47px; 
+}
