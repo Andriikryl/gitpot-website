@@ -1,0 +1,56 @@
+.card{
+    padding-block: 24px;
+    padding-inline: 31px;
+    width: 383px;
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.card__description{
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-block-end: 14px;
+}
+
+.flex__group{
+    display: flex;
+    gap: 12px;
+}
+
+.image__block{
+    flex-shrink: 0;
+}
+
+.card__name span:nth-child(1){
+    display: block;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-block-end: 8px;
+}
+.card__name span:nth-child(2){
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card a{
+    display: inline-block;
+    text-decoration: none;
+    color: #12100C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
