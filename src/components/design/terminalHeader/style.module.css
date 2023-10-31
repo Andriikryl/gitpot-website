@@ -1,0 +1,30 @@
+.header{
+    background-color: #E8E8E8;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.flex__group{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.cicel{
+    width: 10px;
+    height: 10px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.cicel:nth-child(1){
+    background-color: tomato;
+}
+.cicel:nth-child(2){
+    background-color: hsla(0, 5%, 30%, 0.332);
+}
+.cicel:nth-child(3){
+    background-color: hsla(126, 56%, 58%, 0.793);
+}
