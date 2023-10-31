@@ -1,0 +1,35 @@
+.wrapper{
+    height: 472px;
+    background-color: #F9F9F9;
+    max-width: 570px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+}
+
+.list__wrapper{
+    padding-inline: 20px;
+    padding-block-end: 20px;
+}
+
+.header{
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 11%, 15%, 0.096);
+}
+
+.cicel{
+    width: 10px;
+    height: 10px;
+    background-color: #ffc300;
+    border-radius: 50%;
+}
