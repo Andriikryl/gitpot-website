@@ -3,6 +3,7 @@ import style from "./style.module.css";
 import { Container } from "../container/Container";
 import Marquue from "./Marquue/Marquue";
 import CardDev from "./cardDev/CardDev";
+import SponsorsGroup from "./sponsorsGroup/SponsorsGroup";
 
 export default function Developers() {
   return (
@@ -11,9 +12,8 @@ export default function Developers() {
         <h5 className={style.developers__title}>
           Used by 400,000+ developers.
         </h5>
-        <div>
-          <Marquue />
-        </div>
+        <Marquue />
+        <SponsorsGroup/>
       </Container>
     </section>
   );
