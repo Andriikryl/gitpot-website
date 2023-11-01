@@ -1,0 +1,41 @@
+.footer{
+    background-color: #E8E8E8;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.logo{
+    margin-inline-start: -20px;
+    padding: 10px;
+    background-color: #e63946;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-inline-start: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.python{
+    margin-inline-start: 10px;
+    color: black;
+}
+
+.flex__group{
+    margin-inline-start: 10px;
+    display: flex;
+    gap: 7px;
+}
+
+.flex__group a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+}

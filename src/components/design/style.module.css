@@ -2,6 +2,14 @@
     padding-block: 100px;
 }
 
+.list__wrapper{
+    height: 500px;
+}
+
+.body{
+    width: 100%;
+}
+
 .design__title{
     color: #FBA949;
     text-align: center;
@@ -12,8 +20,46 @@
     line-height: 71.82px;
     margin-block-end: 47px; 
 }
+
+.flex__group{
+    margin-inline-start: 10px;
+    display: flex;
+    gap: 15px;
+}
 .terminal{
     overflow: hidden;
     border-radius: 14px;
     box-shadow: -2px 2px 15px 8px rgba(255, 138, 0, 0.40);
+}
+
+.explore__wrapper{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.explore__group{
+    display: flex;
+    gap: 4px;
+}
+
+.cicel{
+    width: 5px;
+    height: 5px;
+    background-color: hsla(0, 2%, 28%, 0.473);
+    border-radius: 50%;
+}
+
+.burger__box{
+    margin-block-start: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.burger__line{
+    width: 30px;
+    height: 3px;
+    background-color: hsla(0, 2%, 28%, 0.473);
 }
