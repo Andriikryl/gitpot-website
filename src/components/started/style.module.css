@@ -1,0 +1,14 @@
+.started{
+    padding-block: 100px;
+}
+
+.started__title{
+    color: #12100C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: clamp(20px, 5vw + 1rem, 54px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.82px;
+    margin-block-end: 48px;
+}
